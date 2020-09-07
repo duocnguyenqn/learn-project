@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header_area {
+    overflow: hidden;
+}
+
+.inner_header {
+    overflow: hidden;
+}
+
+.header_area .backgrou_area {
+    background: aquamarine;
+    overflow: hidden;
+}
+
+.header_area .profile {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+.header_area .profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.header_area .profile p {
+    margin: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.header_area .profile p.gmail {
+    font-size: 18px;
+    color: #fff;
+}
+
+.menu_area {
+    text-align: center;
+}
+
+.menu {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.menu_area ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 14px 14px 0 0;
+    float: left;
+    background: #ddd;
+    overflow: hidden;
+}
+
+.menu_area ul li {
+    float: left;
+    padding: 16px 68px;
+    cursor: pointer;
+}
+
+.menu_area ul li:hover {
+    background: cornsilk;
+}
+
+.menu_area ul li:hover b {
+    color: #000;
+}
+
+.menu_area ul li b {
+    color: #fff;
+    font-size: 20px;
+}
+
+.menu_area ul li span {
+    display: block;
+    padding-top: 10px;
+    color: #363636;
+}
+
+.inner_content {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    margin-bottom: 44px;
+}
+
+.content_left {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.images_area {
+    margin: 0 10px;
+}
+
+.images_area img {
+    border-radius: 8px;
+    display: block;
+    width: 150px;
+    height: auto;
+    max-height: 70px;
+}
+
+.content_left span {}
+
+.content_center {
+    line-height: 1.69;
+}
+
+.content_center a {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+}
+
+.content_center p {
+    margin: 0;
+    opacity: 0.5;
+}
+
+.content_right {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.content_right ul {
+    padding: 0;
+       margin: 0 30px;
+}
+
+.content_right ul li {
+    display: inline-block;
+    margin: 0 18px;
+}
