@@ -279,7 +279,8 @@ body {
 }
 
 .menu_right img {
-    height: auto;
+    height: 100%;
+    width: 100%;
     max-height: 500px;
     display: block;
 }
@@ -343,6 +344,7 @@ body {
     background-size: cover;
     display: flex;
     align-items: center;
+    margin-top: 40px;
 }
 
 .backgrou_arabica .arabica_content {
@@ -367,4 +369,353 @@ body {
     border: 1px solid #F7FE2E;
     padding: 5px 25px;
     background: none;
+}
+
+.inner_products {}
+
+.inner_products .products_title {
+    text-align: center;
+}
+
+.products_title h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.products_title span {
+    color: #FF8000;
+}
+
+.inner_products .menu_products {}
+
+.menu_products ul {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_products ul li {
+    color: #FF8000;
+    list-style: none;
+    float: left;
+    text-align: center;
+    font-size: 22px;
+    width: 15%;
+    margin: 20px;
+    border: 1px solid;
+    padding: 3px 0;
+}
+
+.menu_products ul li:hover {
+    color: #dddddd;
+    background: #FF8000;
+}
+
+.products_content {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.products_images {
+    width: 32%;
+    margin-bottom: 30px;
+}
+
+.products_images:nth-child(3n+2) {
+    margin: 0 24px;
+}
+
+.products_images .products_background {
+    text-align: center;
+    position: relative;
+}
+
+.products_background img {
+    height: 400px;
+    max-height: 700px;
+    display: block;
+    width: 100%;
+}
+
+.products_images a {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.product_menu {
+    background: #241313;
+    opacity: 0.9;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.products_background b {
+    color: #dddddd;
+    display: block;
+    padding: 15px 0;
+}
+
+.products_images .products_price {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    background: #F7FE2E;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+}
+
+.products_price p {
+    color: #000000;
+    margin: 0;
+}
+
+.products_images .products_card {
+    width: 50%;
+    text-align: center;
+    background: #241313;
+    float: left;
+}
+
+.products_card p {
+    margin: 10px 0;
+}
+
+.products_images .products_order {
+    width: 50%;
+    text-align: center;
+    background: #F7FE2E;
+    float: right;
+}
+
+.products_order p {
+    color: #1a1919;
+    margin: 10px 0;
+}
+
+.product_view {}
+
+.product_view a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.visitor_area {}
+
+.visitor_area .background_visitor {
+    background: #F7FE2E;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visitor_content {}
+
+.background_visitor .visitor_title {
+    text-align: center;
+}
+
+.visitor_title h3 {
+    margin: 0;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.visitor_title span {
+    color: #000000;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile p {
+    margin: 0;
+}
+
+.profile b {
+    display: block;
+    margin: 20px 0 10px 0;
+}
+
+.contact {}
+
+.contact .contact_title {
+    margin: 40px 60px 0;
+}
+
+.contact_title h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.contact_content {
+    margin-top: 30px;
+    display: flex;
+}
+
+.information {
+    width: 50%;
+    float: left;
+}
+
+.information i {
+    color: #FF8000;
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 5px 6px;
+}
+
+.contact .contact_form {
+    width: 50%;
+    float: left;
+}
+
+.contact_form form {
+    width: 100%;
+}
+
+.contact_form input[type="text"] {
+    width: 43%;
+    padding: 10px;
+}
+
+.contact_form input[type="email"] {
+    margin-left: 34px;
+    width: 43%;
+    padding: 10px;
+}
+
+.contact_form select {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.contact_form textarea {
+    width: 96%;
+    padding: 10px 11px 30px;
+}
+
+.contact_form input[type="submit"] {
+    width: 100%;
+    background: #FF8000;
+    border: none;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.background_subcribe {
+    background: url(https://diaocbinhdinh.net/uploads/news/2018_07/mau-thiet-ke-quan-cafe-he-pho-mang-phong-cach-chau-au_3.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_subcribe .subcribe_content {}
+
+.subcribe_content img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.subcribe_content a {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.subcribe_content p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.subcribe_content form {
+    margin-top: 20px;
+}
+
+.subcribe_content label {
+    background: #000000;
+    color: #dddddd;
+    padding: 8px 0 10px 10px;
+}
+
+.subcribe_content input[type="text"] {
+    background: #000000;
+    border: none;
+    color: #dddddd;
+    padding: 10px;
+    margin: 0 -4px;
+}
+
+.subcribe_content input[type="submit"] {
+    background: #000000;
+    border: none;
+    color: #dddddd;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.background_social {
+    background: #F7FE2E;
+    padding: 20px 0;
+}
+
+.background_social ul {
+    margin: 0;
+}
+
+.social_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social_inner p {
+    margin: 0;
+    float: left;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+.background_social ul li:nth-child(-n+3) {
+    padding: 10px 14px 10px;
+}
+
+.background_social ul li {
+    list-style: none;
+    float: right;
+    margin-right: 40px;
+    color: #dddddd;
+    background: #AEB404;
+    border-radius: 50%;
+    padding: 10px 12px 10px;
+    cursor: pointer;
+}
+
+.background_social ul li a {
+    color: #ffffff;
 }
